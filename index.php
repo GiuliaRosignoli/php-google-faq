@@ -51,6 +51,9 @@
     <!-- Style -->
     <link rel="stylesheet" href="./style/style.css">
     <!-- / Style -->
+    <!--FontAwesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--/FontAwesome cdn -->
     <title>Google Faq</title>
 </head>
 <body>
@@ -59,10 +62,10 @@
     <div class="container">
         <div class="upper-header flex">
             <img src="./style/img/logo.png" alt="Google logo">
-            <div>Privacy e termini</div>
+            <div class="privacy">Privacy e termini</div>
             <div class="filler"></div>
-            <div class="icon">hello</div>
-            <div class="image">hello</div>
+            <div class="icon"><i class="fas fa-bars"></i></div>
+            <div class="image"><img src="./style/img/GiuliaRosignoli.jpg" alt=""></div>
         </div>
         <div class="lower-header flex">
             <div class="menu"><a href="#">Introduzione</a></div>
@@ -80,6 +83,7 @@
 
     <main>
         <div class="second-container"> 
+            <!--PHP SECTION AND LOOP -->
 
             <?php foreach($faqs as $faq){ ?>
                 <div>
