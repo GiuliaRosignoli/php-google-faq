@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #fff;
 }
 
 img {
@@ -16,6 +17,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 
 /* Utilities */
 
@@ -31,11 +33,24 @@ a {
     font-weight: bold;
 }
 
+.gray {
+    color: gray;
+}
+
 
 
 /* Header -menu */
 
 /* Top */
+body {
+    padding-top: 100px;
+}
+
+
+ header {
+     position: relative;
+ }
+
 
 .upper-header {
     align-items: center;
@@ -43,20 +58,34 @@ a {
 }
 
 .image img {
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     padding: 10px;
     margin-right: 10px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .container {
-    padding: 20px;
-    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    padding: 10px;
+}
+
+.fas {
+    padding-right: 10px;
+    font-size: 20px;
+    color: rgb(41, 40, 40);
+    cursor: pointer;
+
 }
 
 .menu {
-    padding-right: 8px;
+    padding-right: 14px;
+    font-size: 18px;
 }
 
 .privacy {
@@ -68,11 +97,8 @@ a {
 /* Second container */
 
 .second-container {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
+    padding-top: 60px;
 }
 
-.question {
-    margin: 20px;
-    font-size: 22px;
-}
