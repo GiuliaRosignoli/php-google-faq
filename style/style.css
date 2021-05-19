@@ -57,6 +57,11 @@ body {
     padding-bottom: 10px;
 }
 
+.lower-header {
+    padding: 5px;
+    border-bottom: 1px solid rgb(168, 168, 168);
+}
+
 .image img {
     width: 55px;
     height: 55px;
