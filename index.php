@@ -72,12 +72,12 @@
             <div class="icon"><i class="fas fa-bars"></i></div>
             <div class="image"><img src="./style/img/GiuliaRosignoli.jpg" alt=""></div>
         </div>
-        <div class="lower-header flex" style="padding-bottom: 10px; padding-right: 14px; font-family: 'Open Sans', sans-serif; ">
-            <div class="bold gray menu" style="font-size: 16px;"><a href="#">Introduzione</a></div>
-            <div class="bold gray menu" style="font-size: 16px;"><a href="#">Norme sulla privacy</a></div>
-            <div class="bold gray menu" style="font-size: 16px;"><a href="#">Termini di servizio</a></div>
-            <div class="bold gray menu" style="font-size: 16px;"><a href="#">Tecnologie</a></div>
-            <div class="bold gray menu" style="font-size: 16px;"><a href="#">Domande frequenti</a></div>
+        <div class="lower-header flex" style="padding-bottom: 10px; font-family: 'Open Sans', sans-serif; ">
+            <div class="bold gray menu" style="padding-right: 22px; font-size: 15px;"><a href="#">Introduzione</a></div>
+            <div class="bold gray menu" style="padding-right: 22px; font-size: 15px;"><a href="#">Norme sulla privacy</a></div>
+            <div class="bold gray menu" style="padding-right: 22px; font-size: 15px;"><a href="#">Termini di servizio</a></div>
+            <div class="bold gray menu" style="padding-right: 22px; font-size: 15px;"><a href="#">Tecnologie</a></div>
+            <div class="bold gray menu" style="padding-right: 22px; font-size: 15px;"><a href="#">Domande frequenti</a></div>
         </div>
     </div>
     </header>
