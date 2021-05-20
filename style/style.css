@@ -8,6 +8,7 @@
     background-color: #fff;
 }
 
+
 img {
     width: 100px;
     height: 50px;
@@ -43,7 +44,7 @@ a {
 
 /* Top */
 body {
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 
@@ -54,11 +55,9 @@ body {
 
 .upper-header {
     align-items: center;
-    padding-bottom: 10px;
 }
 
 .lower-header {
-    padding: 5px;
     border-bottom: 1px solid rgb(168, 168, 168);
 }
 
@@ -76,7 +75,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    height: 100px;
+    height: 80px;
     padding: 10px;
 }
 
@@ -88,16 +87,6 @@ body {
 
 }
 
-.menu {
-    padding-right: 14px;
-    font-size: 18px;
-}
-
-.privacy {
-    align-self: center;
-    font-size: 27px;
-    color: gray;
-}
 
 /* Second container */
 

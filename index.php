@@ -41,7 +41,7 @@
 ?>
 
 
-
+<!-- HTML -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -49,6 +49,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <!--/ Font -->
     <!-- Style -->
     <link rel="stylesheet" href="./style/style.css">
     <!-- / Style -->
@@ -63,17 +67,17 @@
     <div class="container">
         <div class="upper-header flex">
             <img src="./style/img/logo.png" alt="Google logo">
-            <div class="bold privacy">Privacy e termini</div>
+            <div class="bold privacy" style="align-self: center; font-size: 24px; font-family: 'Open Sans', sans-serif; color: gray;">Privacy e termini</div>
             <div class="filler"></div>
             <div class="icon"><i class="fas fa-bars"></i></div>
             <div class="image"><img src="./style/img/GiuliaRosignoli.jpg" alt=""></div>
         </div>
-        <div class="lower-header flex">
-            <div class="bold gray menu"><a href="#">Introduzione</a></div>
-            <div class="bold gray menu"><a href="#">Norme sulla privacy</a></div>
-            <div class="bold gray menu"><a href="#">Termini di servizio</a></div>
-            <div class="bold gray menu"><a href="#">Tecnologie</a></div>
-            <div class="bold gray menu"><a href="#">Domande frequenti</a></div>
+        <div class="lower-header flex" style="padding-bottom: 10px; padding-right: 14px; font-family: 'Open Sans', sans-serif; ">
+            <div class="bold gray menu" style="font-size: 16px;"><a href="#">Introduzione</a></div>
+            <div class="bold gray menu" style="font-size: 16px;"><a href="#">Norme sulla privacy</a></div>
+            <div class="bold gray menu" style="font-size: 16px;"><a href="#">Termini di servizio</a></div>
+            <div class="bold gray menu" style="font-size: 16px;"><a href="#">Tecnologie</a></div>
+            <div class="bold gray menu" style="font-size: 16px;"><a href="#">Domande frequenti</a></div>
         </div>
     </div>
     </header>
@@ -88,8 +92,8 @@
 
             <?php foreach($faqs as $faq){ ?>
                 <div>
-                    <div style="padding-top: 20px; padding-bottom: 10px; color: rgb(71, 70, 70); font-size: 25px; font-weight: bold;"><?echo $faq[question]; ?></div>
-                    <div style="padding-bottom: 40px; color: rgb(41, 40, 40) ;font-size: 17px;"><? echo $faq[answer]; ?></div>
+                    <div style="padding-top: 20px; padding-bottom: 10px; color: rgb(71, 70, 70); font-family: 'Open Sans', sans-serif; font-size: 21px; font-weight: bold;"><?echo $faq[question]; ?></div>
+                    <div style="padding-bottom: 40px; color: black ; font-family: 'Open Sans', sans-serif; font-size: 14px;"><? echo $faq[answer]; ?></div>
                 </div>
              <?php } ?>
             
