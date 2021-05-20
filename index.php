@@ -92,8 +92,8 @@
 
             <?php foreach($faqs as $faq){ ?>
                 <div>
-                    <div style="padding-top: 20px; padding-bottom: 10px; color: rgb(71, 70, 70); font-family: 'Open Sans', sans-serif; font-size: 21px; font-weight: bold;"><?echo $faq[question]; ?></div>
-                    <div style="padding-bottom: 40px; color: black ; font-family: 'Open Sans', sans-serif; font-size: 14px;"><? echo $faq[answer]; ?></div>
+                    <div style="padding-top: 20px; padding-bottom: 10px; color: rgb(71, 70, 70); font-family: 'Open Sans', sans-serif; font-size: 21px; font-weight: bold;"><?echo $faq['question']; ?></div>
+                    <div style="padding-bottom: 40px; color: black ; font-family: 'Open Sans', sans-serif; font-size: 14px;"><? echo $faq['answer']; ?></div>
                 </div>
              <?php } ?>
             
